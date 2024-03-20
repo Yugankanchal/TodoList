@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./todo.css">
+</head>
+
+<body style="background-color: #000121;">
+    <div id="parent">
+        <div id="input-task" class="same-size">
+            <i class="fa-regular fa-note-sticky Block" style="padding: 2px;"></i>
+            <input type="text" value="" class="Block" style="padding: 2px;">
+            <button type="submit" onclick="addTodo()" class="Block" style="padding: 2px"><i
+                    class="fa-solid fa-circle-plus"></i></button>
+        </div>
+
+        <div class="same-size">
+            <ul id="list-items" style="list-style: none;">
+            </ul>
+            <div class="Footer">
+                <span id="Total-todo">0: tasks left</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./todo.js">
+</script>
+
+</html>

@@ -1,0 +1,85 @@
+#parent {
+    margin-top: 3%;
+    margin-left: 30vw;
+    width: 34vw;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+
+}
+
+input {
+    border: none;
+    font-size: inherit;
+    background-color: inherit;
+    outline: none;
+    width: 93%;
+}
+
+.same-size {
+    width: 96%;
+    background-color: inherit;
+}
+
+#input-task {
+    font-size: 1.5rem;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: row;
+    padding: 0.3rem;
+    padding-left: 1.2rem;
+    border-bottom: 1.5px solid grey;
+    background-color: lightgray;
+}
+
+button[type="submit"] {
+    border: none;
+    /* margin-left: .3rem; */
+    background-color: inherit;
+    font-size: inherit;
+
+}
+
+.Block {
+    display: block;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    display: flex;
+}
+
+ul i {
+    font-size: 1.5rem;
+}
+
+ul span {
+    margin-left: 1rem;
+}
+
+.cross {
+    display: none;
+}
+
+li:hover .cross {
+    display: inline;
+    margin-left: auto;
+}
+
+li {
+    font-size: 1.5rem;
+    margin-top: .7rem;
+    width: 100%;
+    font-family: monospace;
+    margin-left: -1.8rem;
+}
+
+.Footer {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
